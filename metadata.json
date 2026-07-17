@@ -1,0 +1,6 @@
+{
+  "name": "AutoBoyexpress.ng",
+  "description": "A premium buy, sell, and swap marketplace for electronics with rich condition grading, swap negotiation, and checkout options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
