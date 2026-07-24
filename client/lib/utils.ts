@@ -11,5 +11,5 @@ export function cn(...classes: (string | boolean | undefined | null)[]): string 
 }
 
 export function truncate(text: string, maxLength: number): string {
-  return text.length > maxLength ? `${text.slice(0, maxLength)}...` : text;
+
 }
