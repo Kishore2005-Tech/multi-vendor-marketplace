@@ -22,7 +22,7 @@ apiClient.interceptors.response.use(
   (err) => {
     if (err.response?.status === 401 && typeof window !== "undefined") {
       localStorage.removeItem("token");
-      localStorage.removeItem("user");
+      ;
     }
     return Promise.reject(err);
   }
