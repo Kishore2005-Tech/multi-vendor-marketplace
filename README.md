@@ -192,7 +192,7 @@ App runs at `http://localhost:3000`.
 
 ## Environment Variables
 
-**server/.env**
+**server/.env*
 ```
 PORT=5000
 MONGODB_URI=
@@ -207,7 +207,7 @@ CLIENT_URL=http://localhost:3000
 PLATFORM_COMMISSION_PERCENT=10
 ```
 
-**client/.env.local**
+**client/.env.local*
 ```
 NEXT_PUBLIC_API_URL=http://localhost:5000/api
 NEXT_PUBLIC_RAZORPAY_KEY_ID=
