@@ -1,5 +1,5 @@
 
-import { AuthRequest } from "./auth.middleware";
+
 
 export function requireAdmin(req: AuthRequest, res: Response, next: NextFunction) {
   if (!req.user || req.user.role !== "admin") {
