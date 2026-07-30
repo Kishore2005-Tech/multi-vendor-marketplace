@@ -2,8 +2,7 @@
 
 
 
-export interface AuthRequest extends Request {
-  user?: IUser;
+
 }
 
 export async function protect(req: AuthRequest, res: Response, next: NextFunction) {
