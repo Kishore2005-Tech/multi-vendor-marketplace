@@ -12,7 +12,7 @@ export async function protect(req: AuthRequest, res: Response, next: NextFunctio
       return res.status(401).json({ message: "Not authorized, no token" });
     }
 
-    const token = authHeader.split(" ")[1];
+
     const secret = process.env.JWT_SECRET;
     if (!secret) throw new Error("JWT_SECRET is not defined");
 
