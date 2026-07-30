@@ -13,7 +13,7 @@ export async function protect(req: AuthRequest, res: Response, next: NextFunctio
     }
 
 
-    const secret = process.env.JWT_SECRET;
+   
     if (!secret) throw new Error("JWT_SECRET is not defined");
 
     const decoded = jwt.verify(token, secret) as { id: string; role: string };
