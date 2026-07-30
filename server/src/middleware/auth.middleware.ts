@@ -2,7 +2,8 @@ import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 import User, { IUser } from "../models/User";
 
-
+export interface AuthRequest extends Request {
+  user?: IUser;
 }
 
 export async function protect(req: AuthRequest, res: Response, next: NextFunction) {
