@@ -28,7 +28,7 @@ Vendra solves a problem most e-commerce templates skip: **supporting many indepe
 
 ## Features
 
-**Buyer**
+Buyer
 - Browse and search products across all vendors, with category/price filters
 - Product detail pages with vendor storefront links
 - Cart and multi-vendor checkout in a single flow
