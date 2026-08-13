@@ -25,7 +25,7 @@ export default function AdminProductsPage() {
 
   async function moderate(id: string, status: "active" | "rejected") {
     const rejectionReason = status === "rejected" ? prompt("Rejection reason:") || "" : undefined;
-    
+    await apiClient.patch(`/admin/products/${id}/moderate`, { status, rejectionReason });
     setProducts((prev) => prev.filter((p) => p._id !== id));
   }
 
