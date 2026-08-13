@@ -14,7 +14,7 @@ interface PendingProduct {
 
 export default function AdminProductsPage() {
   const [products, setProducts] = useState<PendingProduct[]>([]);
- 
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     apiClient
