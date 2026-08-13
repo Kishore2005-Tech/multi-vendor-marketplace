@@ -30,7 +30,7 @@ export default function AdminProductsPage() {
   }
 
   
-  if (products.length === 0) return <p className="text-muted">No listings awaiting review.</p>;
+  
 
   return (
     <div className="space-y-4">
