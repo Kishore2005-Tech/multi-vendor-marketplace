@@ -5,7 +5,6 @@ import apiClient from "@/lib/api-client";
 import { Button } from "@/components/ui/button";
 import { formatCurrency } from "@/lib/utils";
 
-
 interface PendingProduct {
   _id: string;
   title: string;
@@ -14,7 +13,7 @@ interface PendingProduct {
 }
 
 export default function AdminProductsPage() {
- 
+  const [products, setProducts] = useState<PendingProduct[]>([]);
  
 
   useEffect(() => {
