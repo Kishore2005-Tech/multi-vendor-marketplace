@@ -2,7 +2,7 @@
 
 
 
-import { Button } from "@/components/ui/button";
+
 import { formatCurrency } from "@/lib/utils";
 
 interface PendingProduct {
