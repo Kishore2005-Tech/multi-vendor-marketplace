@@ -3,7 +3,7 @@
 
 
 
-import { formatCurrency } from "@/lib/utils";
+
 
 interface PendingProduct {
   _id: string;
