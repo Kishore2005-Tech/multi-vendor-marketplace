@@ -26,12 +26,12 @@ export default function AdminProductsPage() {
   async function moderate(id: string, status: "active" | "rejected") {
     const rejectionReason = status === "rejected" ? prompt("Rejection reason:") || "" : undefined;
     await apiClient.patch(`/admin/products/${id}/moderate`, { status, rejectionReason });
+    
     setProducts((prev) => prev.filter((p) => p._id !== id));
   }
-
+    if (loading) return <p className="text-muted">Loading...</p>;
+    if (products.length === 0) return <p className="text-muted">No listings awaiting review.</p>;
   
-  
-
   return (
     <div className="space-y-4">
       <h1 className="text-2xl font-bold text-white">Pending Product Listings</h1>
