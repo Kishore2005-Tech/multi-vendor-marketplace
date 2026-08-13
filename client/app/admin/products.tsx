@@ -29,7 +29,7 @@ export default function AdminProductsPage() {
     setProducts((prev) => prev.filter((p) => p._id !== id));
   }
 
-  if (loading) return <p className="text-muted">Loading...</p>;
+  
   if (products.length === 0) return <p className="text-muted">No listings awaiting review.</p>;
 
   return (
