@@ -40,7 +40,7 @@ Vendor**
 - Per-vendor order view and fulfillment status
 - Payout ledger showing commission-adjusted earnings
 
-**Admin**
+Admin**
 - Vendor approval/rejection queue
 - Product moderation queue
 - Platform-wide analytics (GMV, active vendors, order volume)
