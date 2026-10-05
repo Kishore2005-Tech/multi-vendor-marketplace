@@ -45,7 +45,7 @@ Vendra solves a problem most e-commerce templates skip: **supporting many indepe
 - Product moderation queue
 - Platform-wide analytics (GMV, active vendors, order volume)
 
-Platform**
+**Platform**
 - JWT-based authentication with role-based access control (buyer / vendor / admin)
 - Razorpay payment integration
 - Cloudinary-hosted product images
