@@ -1,4 +1,4 @@
-# AutoBoyExpress — Multi-Vendor E-Commerce Marketplace
+# AutoBoyExpress - Multi-Vendor E-Commerce Marketplace
 
 A full-stack multi-vendor marketplace where independent sellers can open their own storefronts, list products, and manage orders — while buyers shop across all vendors from a single unified platform. Built with a decoupled Next.js frontend and a Node.js/Express REST API, with per-vendor order splitting, commission tracking, and admin moderation built in from the ground up.
 
