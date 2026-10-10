@@ -20,7 +20,7 @@ A full-stack multi-vendor marketplace where independent sellers can open their o
 
 ## Overview
 
-Vendra solves a problem most e-commerce templates skip: **supporting many independent sellers under one roof. Instead of a single-owner store, Vendra separates the platform into three roles — buyers, vendors, and admins — each with their own dashboard and permissions, and handles the messy parts of multi-vendor commerce that a single-seller store never has to deal with:
+Vendra solves a problem most e-commerce templates skip: **supporting many independent sellers under one roof. Instead of a single-owner store, Vendra separates the platform into three roles** — buyers, vendors, and admins — each with their own dashboard and permissions, and handles the messy parts of multi-vendor commerce that a single-seller store never has to deal with:
 
 - One checkout can contain products from multiple vendors — the order is automatically split into per-vendor sub-orders for fulfillment.
 - Every sale is tracked against a vendor's commission rate, feeding a payout ledger.
