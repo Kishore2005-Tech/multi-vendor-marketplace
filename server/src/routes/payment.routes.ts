@@ -4,6 +4,6 @@ import { protect } from "../middleware/auth.middleware";
 
 
 
-router.post("/verify", protect, verifyPayment);
+
 
 export default router;
