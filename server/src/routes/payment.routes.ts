@@ -6,4 +6,3 @@ import { protect } from "../middleware/auth.middleware";
 
 
 
-export default router;
