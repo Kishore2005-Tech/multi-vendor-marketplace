@@ -6,3 +6,4 @@ const router = Router();
 
 router.post("/verify", protect, verifyPayment);
 
+export default router;
