@@ -4,5 +4,5 @@ import { protect } from "../middleware/auth.middleware";
 
 const router = Router();
 
-
+router.post("/verify", protect, verifyPayment);
 
